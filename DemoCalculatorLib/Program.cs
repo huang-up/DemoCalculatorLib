@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -17,7 +18,13 @@ namespace DemoCalculatorLib
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Console.WriteLine(Application.UserAppDataPath);
-            Application.Run(new Class1());
+            /*Application.Run(new Class1());*/
+            Application.Run(new Form4());
+
+
+
         }
     }
+
+
 }

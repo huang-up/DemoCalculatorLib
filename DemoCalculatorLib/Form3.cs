@@ -16,7 +16,6 @@ namespace DemoCalculatorLib
         {
             InitializeComponent();
             this.DoubleBuffered = true;
-            this.panel1
 
             // 初始化离屏位图
             offScreenBitmap = new Bitmap(panel1.Width, panel1.Height);
